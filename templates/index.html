@@ -1,0 +1,19 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My cat</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/app.css' %}">
+</head>
+<body>
+	<section id="container">
+		<h1>This is my cat</h1>
+        <!-- <img src="static/img/cat2.jpg"> -->
+        <img src="{% static "img/cat2.jpg" %}" alt="My image">
+		<button>Get next photo</button>
+		<p>Please help me name her</p>
+    </section>
+    <script src="{% static "js/app.js" %}"></script>
+</body>
+</html>
