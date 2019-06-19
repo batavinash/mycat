@@ -1,1 +1,1 @@
-web: gunicorn My-cat.wsgi --log-file -
+web: gunicorn My_cat.wsgi --log-file -
